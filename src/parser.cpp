@@ -1,4 +1,11 @@
-#include <stdio.h>
+#include <iostream>
+
+using namespace std;
+
+class Parser
+{
+
+};
 
 int main(int argc, char ** argv)
 {
@@ -6,4 +13,7 @@ int main(int argc, char ** argv)
     {
         fprintf(stderr, "Please enter file to be compiled\n");
     }
+
+    return 0;
 }
+
