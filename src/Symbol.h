@@ -8,6 +8,10 @@
 
 class Symbol {
 
+private:
+public:
+    Symbol();
+    ~Symbol();
 };
 
 

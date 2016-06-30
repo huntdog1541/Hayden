@@ -19,3 +19,6 @@ int main(int argc, char ** argv)
     cout << "The value is " << r1.getValue() << endl;
     return 0;
 }
+
+Parser::Parser() { }
+Parser::~Parser() { }
