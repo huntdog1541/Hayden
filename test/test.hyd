@@ -1,0 +1,4 @@
+_start(string[] args)
+{
+    cout << "Hello world" << el;
+}

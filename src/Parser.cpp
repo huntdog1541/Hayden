@@ -8,11 +8,14 @@
 
 using namespace std;
 
-int main(int argc, char ** argv)
+int main(int argc, char * argv[])
 {
     if(argc <= 1)
     {
         fprintf(stderr, "Please enter file to be compiled\n");
+    }
+    else{
+        cout << "File name is " << argv[1] << endl;
     }
 
     Register r1(34);
