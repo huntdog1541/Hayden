@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-c -Wall
 LDFLAGS=
-SOURCES=src/parser.cpp src/Register.cpp src/symbol.cpp src/VM.cpp
+SOURCES=src/Parser.cpp src/Register.cpp src/Symbol.cpp src/VM.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=hayden
 
