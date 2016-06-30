@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Register.h"
 
 using namespace std;
 
@@ -14,6 +15,8 @@ int main(int argc, char ** argv)
         fprintf(stderr, "Please enter file to be compiled\n");
     }
 
+    Register r1(34);
+    cout << "The value is " << r1.getValue() << endl;
     return 0;
 }
 

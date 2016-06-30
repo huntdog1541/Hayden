@@ -8,11 +8,13 @@
 
 class Register {
 private:
+    int val;
 public:
     Register();
     Register(int value);
     ~Register();
-
+    int getValue();
+    void setValue(int value);
 };
 
 

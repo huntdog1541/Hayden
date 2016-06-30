@@ -6,5 +6,7 @@
 
 
 Register::Register() { }
-Register::Register(int value) { }
+Register::Register(int value) { val = value; }
 Register::~Register() { }
+int Register::getValue() { return val; }
+void Register::setValue(int value) { val = value; }
