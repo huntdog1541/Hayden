@@ -3,5 +3,5 @@ project(Hayden)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES src/parser.cpp src/symbol.cpp src/Register.cpp src/Register.h src/VM.cpp src/VM.h src/Symbol.cpp src/Symbol.h src/Parser.cpp src/Parser.h)
+set(SOURCE_FILES src/parser.cpp src/symbol.cpp src/Register.cpp src/Register.h src/VM.cpp src/VM.h src/Symbol.cpp src/Symbol.h src/Parser.cpp src/Parser.h src/Lexer.cpp src/Lexer.h)
 add_executable(Hayden ${SOURCE_FILES})

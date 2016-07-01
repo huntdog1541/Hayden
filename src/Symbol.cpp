@@ -3,6 +3,7 @@
 //
 
 #include "Symbol.h"
+#include <iostream>
 
 Symbol::Symbol() {
     symtable[0].word = "_start"; symtable[0].tokenValue = 300;
